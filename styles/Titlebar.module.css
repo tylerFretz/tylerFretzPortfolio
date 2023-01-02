@@ -1,0 +1,80 @@
+.titlebar {
+  background: var(--titlebar-bg);
+  height: 30px;
+  padding: 0 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+  border-bottom: 1px solid #191d20;
+  font-size: 0.9rem;
+}
+
+.items {
+  flex: 1;
+  display: flex;
+  margin-right: auto;
+  margin-left: 0.5rem;
+}
+
+.title {
+  flex: 1;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.items > * {
+  padding: .5rem;
+}
+
+.items > *:hover {
+  padding: .5rem;
+  background: #2d2f34;
+  border-radius: 10px;
+}
+
+.windowButtons {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.windowButtons * {
+  margin-left: 0.5rem;
+  height: 13px;
+  width: 13px;
+  border-radius: 50%;
+}
+
+.minimize {
+  background: #f1fa8c;
+  margin-left: auto;
+}
+
+.maximize {
+  background: #50fa7b;
+}
+
+.close {
+  background: #ff5555;
+}
+
+@media screen and (max-width: 900px) {
+  .items {
+    flex: 0 2;
+  }
+  .items p {
+    display: none;
+  }
+  .title {
+    flex: 4;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .title {
+    font-size: .75rem;
+  }
+}

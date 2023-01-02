@@ -1,4 +1,4 @@
-const FilesIcon = (props) => {
+const FilesIcon = (props: any) => {
   return (
     <svg
       width={24}

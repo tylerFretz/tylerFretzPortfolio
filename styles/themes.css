@@ -34,7 +34,7 @@
   --sidebar-bg: #343746;
   --sidebar-hover-bg: #3c3d51;
   --explorer-bg: #21222c;
-  --explorer-hover-bg: #313241;
+  --explorer-hover-bg: #313341;
   --explorer-border: #161a1d;
   --tabs-bg: #191a21;
   --tab-bg: #21222c;
@@ -54,13 +54,13 @@
 [data-theme='ayu-dark'] {
   --main-bg: #0a0e14;
   --bg-text: #101620;
-  --text-color: #efefef;
+  --text-color: #455b66;
   --accent-color: #e6b450;
   --titlebar-bg: #1f2428;
   --sidebar-bg: #0a0e14;
   --sidebar-hover-bg: #00010a;
   --explorer-bg: #0a0e14;
-  --explorer-hover-bg: #00010a;
+  --explorer-hover-bg: #1a1f29;
   --explorer-border: transparent;
   --tabs-bg: #0a0e14;
   --tab-bg: #0a0e14;
@@ -80,13 +80,13 @@
 [data-theme='ayu-mirage'] {
   --main-bg: #1f2430;
   --bg-text: #21242b;
-  --text-color: #efefef;
+  --text-color: #cccac2;
   --accent-color: #e6b450;
   --titlebar-bg: #1f2428;
   --sidebar-bg: #1f2430;
   --sidebar-hover-bg: #191e2a;
   --explorer-bg: #1f2430;
-  --explorer-hover-bg: #191e2a;
+  --explorer-hover-bg: #293040;
   --explorer-border: transparent;
   --tabs-bg: #1f2430;
   --tab-bg: #1f2430;

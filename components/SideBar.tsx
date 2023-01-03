@@ -4,7 +4,6 @@ import styles from "../styles/Sidebar.module.css";
 import AccountIcon from "./icons/AccountIcon";
 import CodeIcon from "./icons/CodeIcon";
 import FilesIcon from "./icons/FilesIcon";
-import GithubIcon from "./icons/GithubIcon";
 import MailIcon from "./icons/MailIcon";
 import SettingsIcon from "./icons/SettingsIcon";
 
@@ -12,10 +11,6 @@ const sidebarTopItems = [
   {
     Icon: FilesIcon,
     path: "/",
-  },
-  {
-    Icon: GithubIcon,
-    path: "/github",
   },
   {
     Icon: CodeIcon,

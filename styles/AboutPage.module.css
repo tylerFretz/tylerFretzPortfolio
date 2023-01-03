@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  height: 75vh;
+  flex-direction: column;
+  color: var(--text-color);
+}
+
+.introContainer {
+  display: flex;
+  padding: 0rem 2rem;
+  align-items: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .introContainer {
+    flex-direction: column;
+  }
+}
+
+.intro {
+  width: 60%;
+}
+
+@media screen and (max-width: 800px) {
+  .intro {
+    width: 100%;
+  }
+}
+
+.title {
+  font-size: 1.8rem;
+  color: var(--accent-color);
+}
+
+.techContainer {
+  width: 60%;
+  margin-top: 2rem;
+  padding: 0rem 2rem;
+}
+
+.list {
+  list-style: none;
+}
+
+.listItem {
+  display: inline-block;
+  padding: .5rem;
+  margin: .5rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 5px;
+}

@@ -23,11 +23,6 @@ const tabs = [
     icon: "/csharp_icon.svg",
   },
   {
-    name: "github.md",
-    path: "/github",
-    icon: "/markdown_icon.svg",
-  },
-  {
     name: "settings.json",
     path: "/settings",
     icon: "/json_icon.svg",

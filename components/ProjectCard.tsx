@@ -1,6 +1,6 @@
+import styles from "@styles/ProjectCard.module.css";
 import Image from "next/image";
 import { shimmer } from "../utils/shimmer";
-import styles from "/styles/ProjectCard.module.css";
 
 export type Project = {
   id: string;

@@ -1,7 +1,7 @@
+import styles from "@styles/Titlebar.module.css";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import { useMemo } from "react";
-import styles from "/styles/Titlebar.module.css";
 
 const topButtons = [
   "File",

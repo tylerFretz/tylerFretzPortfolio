@@ -1,9 +1,9 @@
 import ChevronRightIcon from "@/icons/ChevronRightIcon";
+import styles from "@styles/Explorer.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useState } from "react";
-import styles from "/styles/Explorer.module.css";
 
 const explorerItems = [
   {

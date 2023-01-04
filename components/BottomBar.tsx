@@ -1,10 +1,10 @@
+import BellIcon from "@/components/icons/BellIcon";
+import CheckIcon from "@/components/icons/CheckIcon";
+import ErrorIcon from "@/components/icons/ErrorIcon";
+import NextjsIcon from "@/components/icons/NextjsIcon";
+import SourceControlIcon from "@/components/icons/SourceControlIcon";
+import WarningIcon from "@/components/icons/WarningIcon";
 import styles from "../styles/Bottombar.module.css";
-import BellIcon from "./icons/BellIcon";
-import CheckIcon from "./icons/CheckIcon";
-import ErrorIcon from "./icons/ErrorIcon";
-import NextjsIcon from "./icons/NextjsIcon";
-import SourceControlIcon from "./icons/SourceControlIcon";
-import WarningIcon from "./icons/WarningIcon";
 
 const Bottombar = () => {
   return (

@@ -1,9 +1,9 @@
+import Head from "@/components/Head";
+import Layout from "@/components/Layout";
 import type { NextPage } from "next";
 import type { AppProps } from "next/app";
 import type { ReactElement, ReactNode } from "react";
 import { useEffect } from "react";
-import Head from "../components/Head";
-import Layout from "../components/Layout";
 import "../styles/globals.css";
 import "../styles/themes.css";
 

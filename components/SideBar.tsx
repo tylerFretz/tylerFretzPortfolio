@@ -3,7 +3,7 @@ import CodeIcon from "@/icons/CodeIcon";
 import FilesIcon from "@/icons/FilesIcon";
 import MailIcon from "@/icons/MailIcon";
 import SettingsIcon from "@/icons/SettingsIcon";
-import styles from "@styles/Sidebar.module.css";
+import styles from "@/styles/Sidebar.module.css";
 import Link from "next/link";
 import { useRouter } from "next/router";
 

@@ -1,4 +1,4 @@
-import styles from "@styles/ProjectCard.module.css";
+import styles from "@/styles/ProjectCard.module.css";
 import Image from "next/image";
 import { shimmer } from "../utils/shimmer";
 

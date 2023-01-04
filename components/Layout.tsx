@@ -1,4 +1,4 @@
-import styles from "@styles/Layout.module.css";
+import styles from "@/styles/Layout.module.css";
 import BottomBar from "./BottomBar";
 import Explorer from "./Explorer";
 import SideBar from "./SideBar";

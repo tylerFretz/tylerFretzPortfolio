@@ -1,5 +1,5 @@
 import Illustration from "@/icons/Illustration";
-import styles from "@styles/HomePage.module.css";
+import styles from "@/styles/HomePage.module.css";
 import Link from "next/link";
 
 export default function HomePage() {

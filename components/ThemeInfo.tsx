@@ -1,4 +1,4 @@
-import styles from "@styles/ThemeInfo.module.css";
+import styles from "@/styles/ThemeInfo.module.css";
 import Image from "next/image";
 
 interface ThemeInfoProps {

@@ -1,4 +1,4 @@
-import styles from "@styles/Tabsbar.module.css";
+import styles from "@/styles/Tabsbar.module.css";
 import Tab from "./Tab";
 
 const tabs = [

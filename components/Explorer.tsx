@@ -1,5 +1,5 @@
 import ChevronRightIcon from "@/icons/ChevronRightIcon";
-import styles from "@styles/Explorer.module.css";
+import styles from "@/styles/Explorer.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";

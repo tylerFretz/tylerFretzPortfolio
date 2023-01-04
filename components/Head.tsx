@@ -14,16 +14,14 @@ const CustomHead = ({ title }: HeadProps) => {
       />
       <meta
         name="keywords"
-        content="tyler fretz, tyler, fretz, web developer portfolio, tyle web developer, tyle developer, mern stack, tyler fretz portfolio, vscode-portfolio"
+        content="tyler fretz, tyler, fretz, web developer portfolio, tyler web developer, tyler developer, mern stack, tyler fretz portfolio, vscode-portfolio"
       />
       <meta property="og:title" content="Tyler Fretz's Portfolio" />
       <meta
         property="og:description"
         content="A full-stack developer building websites that you'd like to use."
       />
-      <meta property="og:image" content="https://imgur.com/4zi5KkQ.png" />
-      <meta property="og:url" content="https://vscode-portfolio.vercel.app" />
-      <meta name="twitter:card" content="summary_large_image" />
+      <meta property="og:url" content="https://tyler-fretz-portfolio.vercel.app/" />
     </Head>
   );
 };

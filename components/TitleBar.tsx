@@ -3,9 +3,20 @@ import { useRouter } from "next/router";
 import { useMemo } from "react";
 import styles from "../styles/Titlebar.module.css";
 
+const topButtons = [
+  "File",
+  "Edit",
+  "View",
+  "Go",
+  "Run",
+  "Terminal",
+  "Help",
+];
+
 const Titlebar = () => {
   const { pathname } = useRouter();
   const activeFilename = useMemo(() => getActiveFilename(pathname), [pathname]);
+  const handleOpenResume = () => window.open("tylerFretzResume.pdf", "_blank", "noopener,noreferrer")?.focus();
 
   return (
     <section className={styles.titlebar}>
@@ -17,13 +28,9 @@ const Titlebar = () => {
         className={styles.icon}
       />
       <div className={styles.items}>
-        <p>File</p>
-        <p>Edit</p>
-        <p>View</p>
-        <p>Go</p>
-        <p>Run</p>
-        <p>Terminal</p>
-        <p>Help</p>
+        {topButtons.map((button) => (
+          <button key={button} onClick={handleOpenResume}>{button}</button>
+        ))}
       </div>
       <p className={styles.title}>{activeFilename} - Tyler Fretz - Visual Studio Code</p>
       <div className={styles.windowButtons}>
@@ -45,8 +52,6 @@ const getActiveFilename = (pathname: string) => {
     return "contact.css";
   case "/projects":
     return "projects.cs";
-  case "/github":
-    return "github.md";
   case "/settings":
     return "settings.json";
   default:

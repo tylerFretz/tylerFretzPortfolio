@@ -20,6 +20,7 @@ const techs = [
 ];
 
 const AboutPage = () => {
+  const handleOpenResume = () => window.open("tylerFretzResume.pdf", "_blank", "noopener,noreferrer")?.focus();
   return (
     <div className={styles.container}>
       <div className={styles.introContainer}>
@@ -32,7 +33,10 @@ const AboutPage = () => {
 						and Magic the Gathering.
           </p>
         </div>
-        <Image src="/developer.png" alt="Developer" height={200} width={200} />
+        <div className={styles.imageContainer}>
+          <Image src="/developer.png" alt="Developer" height={200} width={200} />
+          <button className={styles.button} onClick={handleOpenResume}>View Resume</button>
+        </div>
       </div>
       <div className={styles.techContainer}>
         <h3 className={styles.title}>Technologies I Regularly Use</h3>

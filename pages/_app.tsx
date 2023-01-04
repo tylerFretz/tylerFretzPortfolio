@@ -2,6 +2,7 @@ import Head from "@/components/Head";
 import Layout from "@/components/Layout";
 import "@/styles/globals.css";
 import "@/styles/themes.css";
+import { Analytics } from "@vercel/analytics/react";
 import type { NextPage } from "next";
 import type { AppProps } from "next/app";
 import type { ReactElement, ReactNode } from "react";
@@ -26,6 +27,7 @@ const App = ({ Component, pageProps }: AppProps) => {
     <Layout>
       <Head title={`Tyler Fretz | ${pageProps.title}`} />
       <Component {...pageProps} />
+      <Analytics />
     </Layout>
   );
 };

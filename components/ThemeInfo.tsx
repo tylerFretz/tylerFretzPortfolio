@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "../styles/ThemeInfo.module.css";
+import styles from "/styles/ThemeInfo.module.css";
 
 interface ThemeInfoProps {
   icon: string;

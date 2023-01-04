@@ -1,9 +1,9 @@
-import styles from "../styles/Layout.module.css";
 import BottomBar from "./BottomBar";
 import Explorer from "./Explorer";
 import SideBar from "./SideBar";
 import TabsBar from "./TabsBar";
 import TitleBar from "./TitleBar";
+import styles from "/styles/Layout.module.css";
 
 interface LayoutProps {
   children: React.ReactNode

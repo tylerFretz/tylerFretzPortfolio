@@ -4,7 +4,7 @@ import ErrorIcon from "@/icons/ErrorIcon";
 import NextjsIcon from "@/icons/NextjsIcon";
 import SourceControlIcon from "@/icons/SourceControlIcon";
 import WarningIcon from "@/icons/WarningIcon";
-import styles from "../styles/Bottombar.module.css";
+import styles from "/styles/Bottombar.module.css";
 
 const Bottombar = () => {
   return (

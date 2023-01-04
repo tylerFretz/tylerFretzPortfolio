@@ -5,7 +5,7 @@ import MailIcon from "@/icons/MailIcon";
 import SettingsIcon from "@/icons/SettingsIcon";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import styles from "../styles/Sidebar.module.css";
+import styles from "/styles/Sidebar.module.css";
 
 const sidebarTopItems = [
   {

@@ -4,8 +4,8 @@ import type { NextPage } from "next";
 import type { AppProps } from "next/app";
 import type { ReactElement, ReactNode } from "react";
 import { useEffect } from "react";
-import "../styles/globals.css";
-import "../styles/themes.css";
+import "/styles/globals.css";
+import "/styles/themes.css";
 
 export type NextPageWithLayout<P = object, IP = P> = NextPage<P, IP> & {
   getLayout?: (page: ReactElement) => ReactNode

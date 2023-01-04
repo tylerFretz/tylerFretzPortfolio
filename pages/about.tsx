@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "../styles/AboutPage.module.css";
+import styles from "/styles/AboutPage.module.css";
 
 const techs = [
   "JavaScript/TypeScript",

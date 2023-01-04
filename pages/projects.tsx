@@ -1,6 +1,6 @@
 import ProjectCard, { Project } from "@/components/ProjectCard";
-import styles from "../styles/ProjectsPage.module.css";
 import { getProjects } from "./api/projects";
+import styles from "/styles/ProjectsPage.module.css";
 
 interface ProjectsPageProps {
   projects: Project[];

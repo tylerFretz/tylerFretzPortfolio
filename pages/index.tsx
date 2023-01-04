@@ -1,4 +1,4 @@
-import Illustration from "@/components/icons/Illustration";
+import Illustration from "@/icons/Illustration";
 import Link from "next/link";
 import styles from "../styles/HomePage.module.css";
 

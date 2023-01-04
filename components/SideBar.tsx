@@ -1,8 +1,8 @@
-import AccountIcon from "@/components/icons/AccountIcon";
-import CodeIcon from "@/components/icons/CodeIcon";
-import FilesIcon from "@/components/icons/FilesIcon";
-import MailIcon from "@/components/icons/MailIcon";
-import SettingsIcon from "@/components/icons/SettingsIcon";
+import AccountIcon from "@/icons/AccountIcon";
+import CodeIcon from "@/icons/CodeIcon";
+import FilesIcon from "@/icons/FilesIcon";
+import MailIcon from "@/icons/MailIcon";
+import SettingsIcon from "@/icons/SettingsIcon";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import styles from "../styles/Sidebar.module.css";

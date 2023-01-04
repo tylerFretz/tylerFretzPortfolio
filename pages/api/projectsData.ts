@@ -28,7 +28,7 @@ export const data = [
   {
     "id": 4,
     "name": "Global News App",
-    "image": "/newsApp.gif",
+    "video": "/newsApp.webm",
     "description": "iOS mobile app built to consume the News API",
     "tags": ["swift", "uikit", "mapkit"],
     "source_code": "https://github.com/tylerFretz/mobile-news-app",

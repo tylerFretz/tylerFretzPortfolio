@@ -6,7 +6,8 @@ export type Project = {
   id: string;
   name: string;
   description: string;
-  image: string;
+  image?: string;
+  video?: string;
   demo?: string;
   source_code?: string;
   tags: string[];
@@ -20,14 +21,20 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
   return (
     <div className={styles.card}>
       <div className={styles.imageContainer}>
-        <Image
-          src={project.image}
-          fill
-          placeholder="blur"
-          blurDataURL={shimmer(300, 300)}
-          sizes="(max-width: 360px) 240px, 300px"
-          alt={project.name}
-        />
+        {project.image ? (
+          <Image
+            src={project.image}
+            fill
+            placeholder="blur"
+            blurDataURL={shimmer(300, 300)}
+            sizes="(max-width: 360px) 240px, 300px"
+            alt={project.name}
+          />
+        ) : (
+          <video autoPlay loop muted playsInline width={375}>
+            <source src={project.video} type="video/webm" />
+          </video>
+        )}
       </div>
       <div className={styles.content}>
         <h3>{project.name}</h3>

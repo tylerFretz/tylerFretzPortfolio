@@ -11,15 +11,11 @@
   cursor: pointer;
 }
 
-.tabContainer {
-  display: flex;
-  position: relative;
-}
-
-.tabContainer:hover .close {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+@media screen and (max-width: 500px) {
+  .tab {
+    padding: 0.5rem 1rem 0.5rem 0.5rem;
+    font-size: 0.85rem;
+  }
 }
 
 .link {
@@ -35,27 +31,4 @@
   background: var(--tab-active-bg);
   border-bottom: none;
   color: #ececec
-}
-
-.closeContainer {
-  position: absolute;
-  right: 0;
-  top: 25%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 1.25rem;
-  height: 1.25rem;
-  border-radius: 20%;
-  margin-left: 10px;
-  margin-right: 5px;
-}
-
-.closeContainer:hover {
-  background: rgba(51, 52, 59, 0.7);
-}
-
-.close {
-  display: none;
-  color: #445da1;
 }

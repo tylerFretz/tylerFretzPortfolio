@@ -71,7 +71,7 @@
   .items {
     flex: 0 2;
   }
-  .items p {
+  .items button {
     display: none;
   }
   .title {

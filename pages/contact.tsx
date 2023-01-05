@@ -3,6 +3,7 @@ import styles from "@/styles/ContactPage.module.css";
 import React, { useState } from "react";
 
 const ContactPage = () => {
+  const [buttonText, setButtonText] = useState("Submit" as string);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
@@ -10,13 +11,16 @@ const ContactPage = () => {
 
   const submitForm = async (e: React.SyntheticEvent) => {
     e.preventDefault();
-    console.log(process.env.NEXT_PUBLIC_API_URL);
-    const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/contact`, {
+    setButtonText("Sending...");
+
+    const res = await fetch("/api/contact", {
       method: "POST",
       body: JSON.stringify({ name, email, subject, message }),
+      headers: { "Content-Type": "application/json" },
     });
+
     if (res.ok) {
-      alert("Your response has been received!");
+      alert("Your message has been received!");
       setName("");
       setEmail("");
       setSubject("");
@@ -24,6 +28,7 @@ const ContactPage = () => {
     } else {
       alert("There was an error. Please try again in a while.");
     }
+    setButtonText("Submit");
   };
 
   return (
@@ -81,7 +86,7 @@ const ContactPage = () => {
               required
             ></textarea>
           </div>
-          <button type="submit">Submit</button>
+          <button type="submit">{buttonText}</button>
         </form>
       </div>
     </div>

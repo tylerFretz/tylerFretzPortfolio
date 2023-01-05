@@ -47,6 +47,12 @@
   margin-left: auto;
 }
 
+@media screen and (max-width: 500px) {
+  .windowButtons {
+    display: none;
+  }
+}
+
 .windowButtons * {
   margin-left: 0.5rem;
   height: 13px;

@@ -139,11 +139,12 @@
     display: none;
   }
   .container {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .foreground {
     margin: 4rem 0;
-    display: block;
     text-align: center;
   }
   .name {
@@ -154,11 +155,7 @@
     margin: 0.75rem auto 3rem;
   }
   .illustration {
-    position: absolute;
-    bottom: -50px;
-    right: 0;
-    height: 700px;
-    width: 600px;
+    display: none;
   }
 }
 
@@ -209,11 +206,8 @@
     font-size: 1rem;
   }
   .illustration {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 75vw;
-    height: 50vh;
+    width: 50vw;
+    height: 25vh;
     z-index: 1;
   }
 }
